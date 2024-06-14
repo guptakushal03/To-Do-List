@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/icon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/icon-32x32.png">
+    <link rel="manifest" href="Assets/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="click"><span id="counter">0</span> Clicks</h1>
+    </div>
+
+    <script>
+        let clickCount = Math.floor(Math.random() * 150) + 1;
+        let counter = document.getElementById("counter");
+        counter.innerHTML = clickCount
+
+        function incrementCounter() {
+            clickCount--;
+            counter.textContent = clickCount;
+        }
+
+        document.addEventListener("click", incrementCounter);
+    </script>
+</body>
+</html>
