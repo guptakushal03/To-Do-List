@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAtBcBJYM-OrEKHbMyAGskIMd53-sij-xk",
+    apiKey: "",
     authDomain: "todolist-921ab.firebaseapp.com",
     databaseURL: "https://todolist-921ab-default-rtdb.firebaseio.com",
     projectId: "todolist-921ab",
