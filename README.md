@@ -1,4 +1,4 @@
-# To-Do List with Firebase
+# To-Do List
 
 This is a simple **To-Do List** app that uses **Firebase Realtime Database** to store and manage tasks. Users can add new tasks, and once they are added, they can also delete them by clicking on the task. The app automatically updates in real-time as tasks are added or removed.
 
